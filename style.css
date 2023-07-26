@@ -264,7 +264,6 @@ body {
   line-height: 1.5;
   background-color: var(--grey-blue);
   color: var(--white);
-  transition: 0.3s;
 }
 
 .button:hover {
