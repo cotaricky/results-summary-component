@@ -36,7 +36,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Hanken Grotesk, sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
   font-size: var(--fs-body);
   line-height: 1.5;
 }
@@ -144,7 +144,7 @@ body {
   color: var(--grey-blue);
 }
 
-#total-score {
+.total-score {
   color: var(--grey-blue);
   margin-left: 0.5em;
   opacity: 0.75;
