@@ -60,7 +60,7 @@ body {
   display: flex;
 }
 
-.card-inner-left {
+.card-header {
   flex: 1;
   padding: 30px;
   background-image: linear-gradient(var(--slate-blue), var(--royal-blue));
@@ -98,6 +98,7 @@ body {
 
 .score {
   color: var(--lavender);
+  opacity: 0.75;
 }
 
 .message-score {
@@ -108,11 +109,12 @@ body {
 }
 
 .message-main {
-  padding: 10px 30px;
+  padding: 10px 20px;
   color: var(--pale-blue);
+  opacity: 0.75;
 }
 
-.card-inner-right {
+.card-summary {
   flex: 1;
   padding: 30px;
 }
@@ -130,6 +132,8 @@ body {
 
 #total-score {
   color: var(--grey-blue);
+  margin-left: 0.5em;
+  opacity: 0.75;
 }
 
 .reaction {
@@ -138,14 +142,23 @@ body {
   margin: 20px 0px;
   border-radius: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
 }
 
 .reaction > * {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
 }
 
 .reaction-title {
   color: var(--light-red);
+  margin-left: 0.5em;
+}
+
+.reaction-score {
+  margin-left: auto;
 }
 
 .memory {
@@ -154,6 +167,9 @@ body {
   margin: 20px 0px;
   border-radius: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
 }
 
 .memory > * {
@@ -162,6 +178,11 @@ body {
 
 .memory-title {
   color: var(--orange);
+  margin-left: 0.5em;
+}
+
+.memory-score {
+  margin-left: auto;
 }
 
 .verbal {
@@ -170,6 +191,9 @@ body {
   margin: 20px 0px;
   border-radius: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
 }
 
 .verbal > * {
@@ -178,6 +202,11 @@ body {
 
 .verbal-title {
   color: var(--green);
+  margin-left: 0.5em;
+}
+
+.verbal-score {
+  margin-left: auto;
 }
 
 .visual {
@@ -186,6 +215,9 @@ body {
   margin: 20px 0px;
   border-radius: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
 }
 
 .visual > * {
@@ -194,6 +226,11 @@ body {
 
 .visual-title {
   color: var(--blue);
+  margin-left: 0.5em;
+}
+
+.visual-score {
+  margin-left: auto;
 }
 
 .button {
