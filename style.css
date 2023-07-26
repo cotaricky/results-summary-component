@@ -20,7 +20,7 @@
   --fs-main-score: 4.5rem;
   --fs-message-score: 1.75rem;
   --container: 90rem;
-  --container-card: 45rem;
+  --container-card: 50rem;
 }
 
 html {
@@ -56,7 +56,7 @@ body {
   }
 
   .card-header {
-    border-radius: 20px !important;
+    border-radius: 30px !important;
   }
 
   .title-summary {
@@ -66,7 +66,7 @@ body {
 
 .card {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 30px;
   border: none;
   box-shadow: 25px 25px 50px var(--pale-blue);
   max-width: var(--container-card);
@@ -77,9 +77,9 @@ body {
 
 .card-header {
   flex: 1;
-  padding: 30px;
+  padding: 40px;
   background-image: linear-gradient(var(--slate-blue), var(--royal-blue));
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 30px 30px;
   border: none;
   text-align: center;
 }
@@ -118,20 +118,21 @@ body {
 
 .message-score {
   margin-top: 20px;
+  padding: 10px;
   color: var(--white);
   font-size: var(--fs-message-score);
   font-weight: 700;
 }
 
 .message-main {
-  padding: 10px 20px;
+  padding: 10px 30px;
   color: var(--pale-blue);
   opacity: 0.75;
 }
 
 .card-summary {
   flex: 1;
-  padding: 30px;
+  padding: 40px;
 }
 
 .stats {
